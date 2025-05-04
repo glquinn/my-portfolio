@@ -1,0 +1,11 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Gemma Quinn Portfolio"
+theme = "ananke"
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "Gemma Quinn"
+  description = "A showcase of my paintings and creative work."
+  show_reading_time = true
