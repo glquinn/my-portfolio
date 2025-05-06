@@ -10,3 +10,8 @@ publishDir = "public"
   author = "Gemma Quinn"
   description = "A showcase of my paintings and creative work."
   show_reading_time = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

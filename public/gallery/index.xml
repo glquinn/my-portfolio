@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galleries on Gemma Quinn Portfolio</title>
+    <link>http://localhost:1313/gallery/</link>
+    <description>Recent content in Galleries on Gemma Quinn Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acrylic Portraits</title>
+      <link>http://localhost:1313/gallery/acrylic-portraits/</link>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gallery/acrylic-portraits/</guid>
+      <description>&lt;p&gt;Welcome to my collection of acrylic portraits. Each painting captures a moment, a personality, or a presence that caught my attention. Scroll down to explore.&#xA;&lt;img src=&#34;http://localhost:1313/images/acrylic/test_adrian_.JPG&#34; alt=&#34;Test&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

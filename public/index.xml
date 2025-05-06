@@ -6,8 +6,15 @@
     <description>Recent content in Home on Gemma Quinn Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acrylic Portraits</title>
+      <link>http://localhost:1313/gallery/acrylic-portraits/</link>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gallery/acrylic-portraits/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/gallery.css&#34; /&gt;&#xA;&lt;p&gt;Welcome to my collection of acrylic portraits. Each painting captures a moment, a personality, or a presence that caught my attention. Scroll down to explore.&lt;/p&gt;&#xA;&lt;div class=&#34;gallery&#34;&gt;&#xA;  &lt;a href=&#34;http://localhost:1313/images/acrylic/adrian-chiles.JPG&#34; data-caption=&#34;Adrian Chiles&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/acrylic/adrian-chiles.JPG&#34; alt=&#34;Adrian Chiles&#34; /&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;http://localhost:1313/images/acrylic/danny.PNG&#34; data-caption=&#34;Danny&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/acrylic/danny.PNG&#34; alt=&#34;Danny&#34; /&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;http://localhost:1313/images/acrylic/james.JPG&#34; data-caption=&#34;James&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/acrylic/james.JPG&#34; alt=&#34;James&#34; /&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;http://localhost:1313/images/acrylic/lindsays-friend.PNG&#34; data-caption=&#34;Lindsay&#39;s Friend&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/acrylic/lindsays-friend.PNG&#34; alt=&#34;Lindsay&#39;s Friend&#34; /&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;http://localhost:1313/images/acrylic/man-number1.PNG&#34; data-caption=&#34;Man #1&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/acrylic/man-number1.PNG&#34; alt=&#34;Man #1&#34; /&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;http://localhost:1313/images/acrylic/man-number2.PNG&#34; data-caption=&#34;Man #2&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/acrylic/man-number2.PNG&#34; alt=&#34;Man #2&#34; /&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;http://localhost:1313/images/acrylic/man-number3.PNG&#34; data-caption=&#34;Man #3&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/acrylic/man-number3.PNG&#34; alt=&#34;Man #3&#34; /&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;http://localhost:1313/images/acrylic/man-number4.PNG&#34; data-caption=&#34;Man #4&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/acrylic/man-number4.PNG&#34; alt=&#34;Man #4&#34; /&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;a href=&#34;http://localhost:1313/images/acrylic/mum.jpg&#34; data-caption=&#34;Mum&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/acrylic/mum.jpg&#34; alt=&#34;Mum&#34; /&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
