@@ -2,20 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/gallery/acrylic-portraits/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/gallery/acrylics/</loc>
   </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/approach/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/biography/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/danny/</loc>
+  </url><url>
+    <loc>http://localhost:1313/gallery/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/lindsays-friend/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/man-number1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/man-number4/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/mum/</loc>
+  </url><url>
+    <loc>http://localhost:1313/gallery/oilpastels/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/placeholder-oil-man/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/placeholder-oil-woman/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/placeholder-pet/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/placeholder-watercolour-man/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/placeholder-watercolour-woman/</loc>
+  </url><url>
+    <loc>http://localhost:1313/gallery/watercolours/</loc>
   </url>
 </urlset>

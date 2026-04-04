@@ -1,0 +1,54 @@
+===========================================
+HOW TO RUN YOUR WEBSITE LOCALLY
+===========================================
+
+STEP 1: OPEN GIT BASH
+- Press the Windows key
+- Type "Git Bash"
+- Click to open it
+
+STEP 2: NAVIGATE TO YOUR PROJECT
+- Type this command and press Enter:
+  cd ~/OneDrive/Desktop/my-portfolio
+
+STEP 3: START THE WEBSITE
+- Type this command and press Enter:
+  hugo server
+
+STEP 4: VIEW YOUR WEBSITE
+- Open your browser
+- Go to: http://localhost:1313/
+
+STEP 5: STOP THE WEBSITE
+- Go back to Git Bash
+- Press Ctrl+C
+
+===========================================
+HOW TO PUBLISH CHANGES TO YOUR LIVE SITE
+===========================================
+
+STEP 1: Make sure you are in Git Bash in your project folder
+  cd ~/OneDrive/Desktop/my-portfolio
+
+STEP 2: Add all your changes
+  git add .
+
+STEP 3: Save your changes with a message
+  git commit -m "Describe what you changed"
+
+STEP 4: Push to GitHub (this triggers Cloudflare to rebuild)
+  git push
+
+STEP 5: Wait a few minutes, then check:
+  https://gemmaquinn.co.uk
+
+===========================================
+USEFUL TIPS
+===========================================
+
+- Your content pages are in: content/
+- Your images go in: static/images/
+- Your custom styles are in: static/css/custom.css
+- Your site config is: config.toml
+- Hard refresh browser: Ctrl+Shift+R
+- If Hugo gives errors, try: hugo server --disableFastRende

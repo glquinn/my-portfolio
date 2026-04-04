@@ -1,0 +1,59 @@
+﻿{{ define "main" }}
+
+<section class="hero">
+  <h1 class="hero-title">Gemma Quinn</h1>
+  <p class="hero-subtitle">Portrait Artist</p>
+</section>
+
+<section class="carousel-section">
+  <button class="carousel-btn carousel-btn-left" onclick="scrollCarousel(-1)">&#10094;</button>
+  <div class="carousel-track" id="carousel-track">
+    <img src="/images/slideshow/slide1.PNG" alt="Painting 1">
+    <img src="/images/slideshow/slide2.JPG" alt="Painting 2">
+    <img src="/images/slideshow/slide3.PNG" alt="Painting 3">
+    <img src="/images/slideshow/slide4.PNG" alt="Painting 4">
+    <img src="/images/slideshow/slide5.PNG" alt="Painting 5">
+    <img src="/images/slideshow/slide6.PNG" alt="Painting 6">
+    <img src="/images/slideshow/slide7.PNG" alt="Painting 7">
+    <img src="/images/slideshow/slide8.jpg" alt="Painting 8">
+    <img src="/images/slideshow/slide9.JPG" alt="Painting 9">
+  </div>
+  <button class="carousel-btn carousel-btn-right" onclick="scrollCarousel(1)">&#10095;</button>
+</section>
+
+<script>
+  const track = document.getElementById('carousel-track');
+
+  function scrollCarousel(direction) {
+    const scrollAmount = 320;
+    track.scrollBy({
+      left: direction * scrollAmount,
+      behavior: 'smooth'
+    });
+  }
+
+  // Auto-scroll
+  let autoScroll = setInterval(function() {
+    if (track.scrollLeft + track.clientWidth >= track.scrollWidth) {
+      track.scrollTo({ left: 0, behavior: 'smooth' });
+    } else {
+      track.scrollBy({ left: 320, behavior: 'smooth' });
+    }
+  }, 3000);
+
+  // Pause auto-scroll on hover
+  track.addEventListener('mouseenter', function() {
+    clearInterval(autoScroll);
+  });
+  track.addEventListener('mouseleave', function() {
+    autoScroll = setInterval(function() {
+      if (track.scrollLeft + track.clientWidth >= track.scrollWidth) {
+        track.scrollTo({ left: 0, behavior: 'smooth' });
+      } else {
+        track.scrollBy({ left: 320, behavior: 'smooth' });
+      }
+    }, 3000);
+  });
+</script>
+
+{{ end }}

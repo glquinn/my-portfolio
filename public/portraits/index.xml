@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portraits on Gemma Quinn</title>
+    <link>http://localhost:1313/portraits/</link>
+    <description>Recent content in Portraits on Gemma Quinn</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/portraits/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Danny</title>
+      <link>http://localhost:1313/portraits/danny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/danny/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lindsay&#39;s Friend</title>
+      <link>http://localhost:1313/portraits/lindsays-friend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/lindsays-friend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Man #1</title>
+      <link>http://localhost:1313/portraits/man-number1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/man-number1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Man #4</title>
+      <link>http://localhost:1313/portraits/man-number4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/man-number4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mum</title>
+      <link>http://localhost:1313/portraits/mum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/mum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oil Portrait - Coming Soon</title>
+      <link>http://localhost:1313/portraits/placeholder-oil-man/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/placeholder-oil-man/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oil Portrait - Coming Soon</title>
+      <link>http://localhost:1313/portraits/placeholder-oil-woman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/placeholder-oil-woman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pet Portrait - Coming Soon</title>
+      <link>http://localhost:1313/portraits/placeholder-pet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/placeholder-pet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Watercolour Portrait - Coming Soon</title>
+      <link>http://localhost:1313/portraits/placeholder-watercolour-man/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/placeholder-watercolour-man/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Watercolour Portrait - Coming Soon</title>
+      <link>http://localhost:1313/portraits/placeholder-watercolour-woman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/placeholder-watercolour-woman/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

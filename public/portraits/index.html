@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portraits | Gemma Quinn</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="site-title">Gemma Quinn</a>
+      <nav class="site-nav">
+        <a href="/">Home</a>
+        <a href="/portraits/">Portraits</a>
+        <a href="/approach/">Approach</a>
+        <a href="/biography/">Biography</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+
+<section class="portraits-page">
+  <h1>Portraits</h1>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Medium:</span>
+      <button class="filter-btn active" onclick="filterBy('medium', 'all')">All</button>
+      <button class="filter-btn" onclick="filterBy('medium', 'acrylic')">Acrylic</button>
+      <button class="filter-btn" onclick="filterBy('medium', 'oil')">Oil</button>
+      <button class="filter-btn" onclick="filterBy('medium', 'watercolour')">Watercolour</button>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Subject:</span>
+      <button class="filter-btn active" onclick="filterBy('subject', 'all')">All</button>
+      <button class="filter-btn" onclick="filterBy('subject', 'men')">Men</button>
+      <button class="filter-btn" onclick="filterBy('subject', 'women')">Women</button>
+      <button class="filter-btn" onclick="filterBy('subject', 'pets')">Pets</button>
+    </div>
+  </div>
+
+  <div class="portraits-grid" id="portraits-grid">
+    
+    <div class="portrait-item" 
+         data-medium="acrylic" 
+         data-subject="men">
+      <a href="/images/acrylic/danny.PNG">
+        <img src="/images/acrylic/danny.PNG" alt="Danny">
+      </a>
+      <p class="portrait-title">Danny</p>
+    </div>
+    
+    <div class="portrait-item" 
+         data-medium="acrylic" 
+         data-subject="women">
+      <a href="/images/acrylic/lindsays-friend.PNG">
+        <img src="/images/acrylic/lindsays-friend.PNG" alt="Lindsay&#39;s Friend">
+      </a>
+      <p class="portrait-title">Lindsay&#39;s Friend</p>
+    </div>
+    
+    <div class="portrait-item" 
+         data-medium="acrylic" 
+         data-subject="men">
+      <a href="/images/acrylic/man-number1.PNG">
+        <img src="/images/acrylic/man-number1.PNG" alt="Man #1">
+      </a>
+      <p class="portrait-title">Man #1</p>
+    </div>
+    
+    <div class="portrait-item" 
+         data-medium="acrylic" 
+         data-subject="men">
+      <a href="/images/acrylic/man-number4.PNG">
+        <img src="/images/acrylic/man-number4.PNG" alt="Man #4">
+      </a>
+      <p class="portrait-title">Man #4</p>
+    </div>
+    
+    <div class="portrait-item" 
+         data-medium="acrylic" 
+         data-subject="women">
+      <a href="/images/acrylic/mum.jpg">
+        <img src="/images/acrylic/mum.jpg" alt="Mum">
+      </a>
+      <p class="portrait-title">Mum</p>
+    </div>
+    
+    <div class="portrait-item" 
+         data-medium="oil" 
+         data-subject="men">
+      <a href="/images/placeholder.jpg">
+        <img src="/images/placeholder.jpg" alt="Oil Portrait - Coming Soon">
+      </a>
+      <p class="portrait-title">Oil Portrait - Coming Soon</p>
+    </div>
+    
+    <div class="portrait-item" 
+         data-medium="oil" 
+         data-subject="women">
+      <a href="/images/placeholder.jpg">
+        <img src="/images/placeholder.jpg" alt="Oil Portrait - Coming Soon">
+      </a>
+      <p class="portrait-title">Oil Portrait - Coming Soon</p>
+    </div>
+    
+    <div class="portrait-item" 
+         data-medium="acrylic" 
+         data-subject="pets">
+      <a href="/images/placeholder.jpg">
+        <img src="/images/placeholder.jpg" alt="Pet Portrait - Coming Soon">
+      </a>
+      <p class="portrait-title">Pet Portrait - Coming Soon</p>
+    </div>
+    
+    <div class="portrait-item" 
+         data-medium="watercolour" 
+         data-subject="men">
+      <a href="/images/placeholder.jpg">
+        <img src="/images/placeholder.jpg" alt="Watercolour Portrait - Coming Soon">
+      </a>
+      <p class="portrait-title">Watercolour Portrait - Coming Soon</p>
+    </div>
+    
+    <div class="portrait-item" 
+         data-medium="watercolour" 
+         data-subject="women">
+      <a href="/images/placeholder.jpg">
+        <img src="/images/placeholder.jpg" alt="Watercolour Portrait - Coming Soon">
+      </a>
+      <p class="portrait-title">Watercolour Portrait - Coming Soon</p>
+    </div>
+    
+  </div>
+</section>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+
+<script>
+  let activeFilters = { medium: 'all', subject: 'all' };
+
+  function filterBy(type, value) {
+    activeFilters[type] = value;
+
+    
+    const group = document.querySelectorAll(`.filter-group`);
+    group.forEach(g => {
+      const buttons = g.querySelectorAll('.filter-btn');
+      const label = g.querySelector('.filter-label').textContent.toLowerCase();
+      if (label.includes(type)) {
+        buttons.forEach(b => b.classList.remove('active'));
+        buttons.forEach(b => {
+          if (b.textContent.toLowerCase() === value || (value === 'all' && b.textContent === 'All')) {
+            b.classList.add('active');
+          }
+        });
+      }
+    });
+
+    
+    const items = document.querySelectorAll('.portrait-item');
+    items.forEach(item => {
+      const matchMedium = activeFilters.medium === 'all' || item.dataset.medium === activeFilters.medium;
+      const matchSubject = activeFilters.subject === 'all' || item.dataset.subject === activeFilters.subject;
+      item.style.display = (matchMedium && matchSubject) ? 'block' : 'none';
+    });
+
+    
+    baguetteBox.run('.portraits-grid');
+  }
+
+  
+  window.addEventListener('load', function() {
+    baguetteBox.run('.portraits-grid');
+  });
+</script>
+
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Gemma Quinn. All rights reserved.</p>
+    <p><a href="mailto:info@gemmaquinn.co.uk">info@gemmaquinn.co.uk</a></p>
+  </footer>
+
+</body>
+</html>

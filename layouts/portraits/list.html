@@ -1,0 +1,79 @@
+﻿{{ define "main" }}
+
+<section class="portraits-page">
+  <h1>Portraits</h1>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Medium:</span>
+      <button class="filter-btn active" onclick="filterBy('medium', 'all')">All</button>
+      <button class="filter-btn" onclick="filterBy('medium', 'acrylic')">Acrylic</button>
+      <button class="filter-btn" onclick="filterBy('medium', 'oil')">Oil</button>
+      <button class="filter-btn" onclick="filterBy('medium', 'watercolour')">Watercolour</button>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Subject:</span>
+      <button class="filter-btn active" onclick="filterBy('subject', 'all')">All</button>
+      <button class="filter-btn" onclick="filterBy('subject', 'men')">Men</button>
+      <button class="filter-btn" onclick="filterBy('subject', 'women')">Women</button>
+      <button class="filter-btn" onclick="filterBy('subject', 'pets')">Pets</button>
+    </div>
+  </div>
+
+  <div class="portraits-grid" id="portraits-grid">
+    {{ range .Pages }}
+    <div class="portrait-item" 
+         data-medium="{{ .Params.medium }}" 
+         data-subject="{{ .Params.subject }}">
+      <a href="{{ .Params.image }}">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}">
+      </a>
+      <p class="portrait-title">{{ .Title }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+
+<script>
+  let activeFilters = { medium: 'all', subject: 'all' };
+
+  function filterBy(type, value) {
+    activeFilters[type] = value;
+
+    // Update active button styles
+    const group = document.querySelectorAll(`.filter-group`);
+    group.forEach(g => {
+      const buttons = g.querySelectorAll('.filter-btn');
+      const label = g.querySelector('.filter-label').textContent.toLowerCase();
+      if (label.includes(type)) {
+        buttons.forEach(b => b.classList.remove('active'));
+        buttons.forEach(b => {
+          if (b.textContent.toLowerCase() === value || (value === 'all' && b.textContent === 'All')) {
+            b.classList.add('active');
+          }
+        });
+      }
+    });
+
+    // Filter items
+    const items = document.querySelectorAll('.portrait-item');
+    items.forEach(item => {
+      const matchMedium = activeFilters.medium === 'all' || item.dataset.medium === activeFilters.medium;
+      const matchSubject = activeFilters.subject === 'all' || item.dataset.subject === activeFilters.subject;
+      item.style.display = (matchMedium && matchSubject) ? 'block' : 'none';
+    });
+
+    // Re-initialize lightbox
+    baguetteBox.run('.portraits-grid');
+  }
+
+  // Initialize lightbox on load
+  window.addEventListener('load', function() {
+    baguetteBox.run('.portraits-grid');
+  });
+</script>
+
+{{ end }}
