@@ -8,40 +8,60 @@
   </url><url>
     <loc>http://localhost:1313/biography/</loc>
   </url><url>
+    <loc>http://localhost:1313/portraits/blue-on-red/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/portraits/danny/</loc>
+    <loc>http://localhost:1313/portraits/dad/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/fergus/</loc>
   </url><url>
     <loc>http://localhost:1313/gallery/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1313/portraits/lindsays-friend/</loc>
-  </url><url>
-    <loc>http://localhost:1313/portraits/man-number1/</loc>
-  </url><url>
-    <loc>http://localhost:1313/portraits/man-number4/</loc>
-  </url><url>
-    <loc>http://localhost:1313/portraits/mum/</loc>
+    <loc>http://localhost:1313/portraits/lee/</loc>
   </url><url>
     <loc>http://localhost:1313/gallery/oilpastels/</loc>
   </url><url>
-    <loc>http://localhost:1313/portraits/placeholder-oil-man/</loc>
-  </url><url>
-    <loc>http://localhost:1313/portraits/placeholder-oil-woman/</loc>
-  </url><url>
-    <loc>http://localhost:1313/portraits/placeholder-pet/</loc>
+    <loc>http://localhost:1313/portraits/orange-and-pink/</loc>
   </url><url>
     <loc>http://localhost:1313/portraits/</loc>
   </url><url>
+    <loc>http://localhost:1313/portraits/robin-blackandwhite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/robin-colour/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/portraits/placeholder-watercolour-man/</loc>
+    <loc>http://localhost:1313/portraits/fishermen/</loc>
   </url><url>
-    <loc>http://localhost:1313/portraits/placeholder-watercolour-woman/</loc>
+    <loc>http://localhost:1313/portraits/watercolour-man/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/watercolour-man2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/watercolour-man3/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/watercolour-man4/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/watercolour-man5/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/watercolour-man6/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/watercolour-man7/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/watercolour-woman/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/watercolour-woman2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/watercolour-woman3/</loc>
   </url><url>
     <loc>http://localhost:1313/gallery/watercolours/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/yellow-on-grey/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portraits/zorn-palette/</loc>
   </url>
 </urlset>

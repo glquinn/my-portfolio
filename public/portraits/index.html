@@ -34,6 +34,7 @@
       <button class="filter-btn active" onclick="filterBy('medium', 'all')">All</button>
       <button class="filter-btn" onclick="filterBy('medium', 'acrylic')">Acrylic</button>
       <button class="filter-btn" onclick="filterBy('medium', 'oil')">Oil</button>
+      <button class="filter-btn" onclick="filterBy('medium', 'oilpastel')">Oil Pastel</button>
       <button class="filter-btn" onclick="filterBy('medium', 'watercolour')">Watercolour</button>
     </div>
     <div class="filter-group">
@@ -47,94 +48,184 @@
 
   <div class="portraits-grid" id="portraits-grid">
     
-    <div class="portrait-item" 
-         data-medium="acrylic" 
+    <div class="portrait-item"
+         data-medium="oilpastel"
          data-subject="men">
-      <a href="/images/acrylic/danny.PNG">
-        <img src="/images/acrylic/danny.PNG" alt="Danny">
+      <a href="/images/portraits/oilpastels_man_blueonred.JPG">
+        <img src="/images/portraits/oilpastels_man_blueonred.JPG" alt="Blue on Red">
       </a>
-      <p class="portrait-title">Danny</p>
+      <p class="portrait-title">Blue on Red</p>
     </div>
     
-    <div class="portrait-item" 
-         data-medium="acrylic" 
-         data-subject="women">
-      <a href="/images/acrylic/lindsays-friend.PNG">
-        <img src="/images/acrylic/lindsays-friend.PNG" alt="Lindsay&#39;s Friend">
-      </a>
-      <p class="portrait-title">Lindsay&#39;s Friend</p>
-    </div>
-    
-    <div class="portrait-item" 
-         data-medium="acrylic" 
+    <div class="portrait-item"
+         data-medium="acrylic"
          data-subject="men">
-      <a href="/images/acrylic/man-number1.PNG">
-        <img src="/images/acrylic/man-number1.PNG" alt="Man #1">
+      <a href="/images/portraits/acrylics_man_dad.JPG">
+        <img src="/images/portraits/acrylics_man_dad.JPG" alt="Dad">
       </a>
-      <p class="portrait-title">Man #1</p>
+      <p class="portrait-title">Dad</p>
     </div>
     
-    <div class="portrait-item" 
-         data-medium="acrylic" 
-         data-subject="men">
-      <a href="/images/acrylic/man-number4.PNG">
-        <img src="/images/acrylic/man-number4.PNG" alt="Man #4">
-      </a>
-      <p class="portrait-title">Man #4</p>
-    </div>
-    
-    <div class="portrait-item" 
-         data-medium="acrylic" 
-         data-subject="women">
-      <a href="/images/acrylic/mum.jpg">
-        <img src="/images/acrylic/mum.jpg" alt="Mum">
-      </a>
-      <p class="portrait-title">Mum</p>
-    </div>
-    
-    <div class="portrait-item" 
-         data-medium="oil" 
-         data-subject="men">
-      <a href="/images/placeholder.jpg">
-        <img src="/images/placeholder.jpg" alt="Oil Portrait - Coming Soon">
-      </a>
-      <p class="portrait-title">Oil Portrait - Coming Soon</p>
-    </div>
-    
-    <div class="portrait-item" 
-         data-medium="oil" 
-         data-subject="women">
-      <a href="/images/placeholder.jpg">
-        <img src="/images/placeholder.jpg" alt="Oil Portrait - Coming Soon">
-      </a>
-      <p class="portrait-title">Oil Portrait - Coming Soon</p>
-    </div>
-    
-    <div class="portrait-item" 
-         data-medium="acrylic" 
+    <div class="portrait-item"
+         data-medium="acrylic"
          data-subject="pets">
-      <a href="/images/placeholder.jpg">
-        <img src="/images/placeholder.jpg" alt="Pet Portrait - Coming Soon">
+      <a href="/images/portraits/acrylic_pets_fergus.JPG">
+        <img src="/images/portraits/acrylic_pets_fergus.JPG" alt="Fergus">
       </a>
-      <p class="portrait-title">Pet Portrait - Coming Soon</p>
+      <p class="portrait-title">Fergus</p>
     </div>
     
-    <div class="portrait-item" 
-         data-medium="watercolour" 
+    <div class="portrait-item"
+         data-medium="oil"
          data-subject="men">
-      <a href="/images/placeholder.jpg">
-        <img src="/images/placeholder.jpg" alt="Watercolour Portrait - Coming Soon">
+      <a href="/images/portraits/oils_man_lee.JPG">
+        <img src="/images/portraits/oils_man_lee.JPG" alt="Lee">
       </a>
-      <p class="portrait-title">Watercolour Portrait - Coming Soon</p>
+      <p class="portrait-title">Lee</p>
     </div>
     
-    <div class="portrait-item" 
-         data-medium="watercolour" 
-         data-subject="women">
-      <a href="/images/placeholder.jpg">
-        <img src="/images/placeholder.jpg" alt="Watercolour Portrait - Coming Soon">
+    <div class="portrait-item"
+         data-medium="watercolour"
+         data-subject="men">
+      <a href="/images/portraits/watercolour_man_orangeandpink.JPG">
+        <img src="/images/portraits/watercolour_man_orangeandpink.JPG" alt="Orange and Pink">
       </a>
-      <p class="portrait-title">Watercolour Portrait - Coming Soon</p>
+      <p class="portrait-title">Orange and Pink</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="oil"
+         data-subject="men">
+      <a href="/images/portraits/oils_man_robin_blackandwhite.JPG">
+        <img src="/images/portraits/oils_man_robin_blackandwhite.JPG" alt="Robin (Black &amp; White)">
+      </a>
+      <p class="portrait-title">Robin (Black &amp; White)</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="oil"
+         data-subject="men">
+      <a href="/images/portraits/oils_man_robin_colour.JPG">
+        <img src="/images/portraits/oils_man_robin_colour.JPG" alt="Robin (Colour)">
+      </a>
+      <p class="portrait-title">Robin (Colour)</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="watercolour"
+         data-subject="men">
+      <a href="/images/portraits/watercolour_man_fisherman.JPG">
+        <img src="/images/portraits/watercolour_man_fisherman.JPG" alt="The Fisherman">
+      </a>
+      <p class="portrait-title">The Fisherman</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="watercolour"
+         data-subject="men">
+      <a href="/images/portraits/watercolour_man.JPG">
+        <img src="/images/portraits/watercolour_man.JPG" alt="Watercolour Portrait">
+      </a>
+      <p class="portrait-title">Watercolour Portrait</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="watercolour"
+         data-subject="men">
+      <a href="/images/portraits/watercolour_man2.JPG">
+        <img src="/images/portraits/watercolour_man2.JPG" alt="Watercolour Portrait II">
+      </a>
+      <p class="portrait-title">Watercolour Portrait II</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="watercolour"
+         data-subject="men">
+      <a href="/images/portraits/watercolour_man3.JPG">
+        <img src="/images/portraits/watercolour_man3.JPG" alt="Watercolour Portrait III">
+      </a>
+      <p class="portrait-title">Watercolour Portrait III</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="watercolour"
+         data-subject="men">
+      <a href="/images/portraits/watercolour_man4.JPG">
+        <img src="/images/portraits/watercolour_man4.JPG" alt="Watercolour Portrait IV">
+      </a>
+      <p class="portrait-title">Watercolour Portrait IV</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="watercolour"
+         data-subject="men">
+      <a href="/images/portraits/watercolour_man5.JPG">
+        <img src="/images/portraits/watercolour_man5.JPG" alt="Watercolour Portrait V">
+      </a>
+      <p class="portrait-title">Watercolour Portrait V</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="watercolour"
+         data-subject="men">
+      <a href="/images/portraits/watercolour_man6.JPG">
+        <img src="/images/portraits/watercolour_man6.JPG" alt="Watercolour Portrait VI">
+      </a>
+      <p class="portrait-title">Watercolour Portrait VI</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="watercolour"
+         data-subject="men">
+      <a href="/images/portraits/watercolour_man7.JPG">
+        <img src="/images/portraits/watercolour_man7.JPG" alt="Watercolour Portrait VII">
+      </a>
+      <p class="portrait-title">Watercolour Portrait VII</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="watercolour"
+         data-subject="women">
+      <a href="/images/portraits/watercolour_woman.JPG">
+        <img src="/images/portraits/watercolour_woman.JPG" alt="Watercolour Woman">
+      </a>
+      <p class="portrait-title">Watercolour Woman</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="watercolour"
+         data-subject="women">
+      <a href="/images/portraits/watercolour_woman2.JPG">
+        <img src="/images/portraits/watercolour_woman2.JPG" alt="Watercolour Woman II">
+      </a>
+      <p class="portrait-title">Watercolour Woman II</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="watercolour"
+         data-subject="women">
+      <a href="/images/portraits/watercolour_woman3.JPG">
+        <img src="/images/portraits/watercolour_woman3.JPG" alt="Watercolour Woman III">
+      </a>
+      <p class="portrait-title">Watercolour Woman III</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="oilpastel"
+         data-subject="women">
+      <a href="/images/portraits/oilspastels_woman_yellowongrey.JPG">
+        <img src="/images/portraits/oilspastels_woman_yellowongrey.JPG" alt="Yellow on Grey">
+      </a>
+      <p class="portrait-title">Yellow on Grey</p>
+    </div>
+    
+    <div class="portrait-item"
+         data-medium="acrylic"
+         data-subject="men">
+      <a href="/images/portraits/acrylics_man_zorn_pallette.JPG">
+        <img src="/images/portraits/acrylics_man_zorn_pallette.JPG" alt="Zorn Palette Study">
+      </a>
+      <p class="portrait-title">Zorn Palette Study</p>
     </div>
     
   </div>
@@ -149,9 +240,8 @@
   function filterBy(type, value) {
     activeFilters[type] = value;
 
-    
-    const group = document.querySelectorAll(`.filter-group`);
-    group.forEach(g => {
+    const groups = document.querySelectorAll('.filter-group');
+    groups.forEach(g => {
       const buttons = g.querySelectorAll('.filter-btn');
       const label = g.querySelector('.filter-label').textContent.toLowerCase();
       if (label.includes(type)) {
@@ -164,7 +254,6 @@
       }
     });
 
-    
     const items = document.querySelectorAll('.portrait-item');
     items.forEach(item => {
       const matchMedium = activeFilters.medium === 'all' || item.dataset.medium === activeFilters.medium;
@@ -172,11 +261,9 @@
       item.style.display = (matchMedium && matchSubject) ? 'block' : 'none';
     });
 
-    
     baguetteBox.run('.portraits-grid');
   }
 
-  
   window.addEventListener('load', function() {
     baguetteBox.run('.portraits-grid');
   });

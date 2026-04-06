@@ -229,22 +229,24 @@ body {
 
 .portraits-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
 }
 .portrait-item {
   text-align: center;
+  overflow: hidden;
 }
 .portrait-item img {
   width: 100%;
-  height: auto;
+  height: 350px;
+  object-fit: contain;
   border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: none;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .portrait-item img:hover {
   transform: scale(1.02);
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+  box-shadow: none;
 }
 .portrait-title {
   margin-top: 0.6rem;
@@ -252,7 +254,6 @@ body {
   color: var(--rosy-taupe);
   font-style: italic;
 }
-
 /* ===== FOOTER ===== */
 .site-footer {
   background-color: var(--mauve-shadow);

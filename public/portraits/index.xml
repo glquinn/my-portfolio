@@ -8,73 +8,143 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/portraits/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Danny</title>
-      <link>http://localhost:1313/portraits/danny/</link>
+      <title>Blue on Red</title>
+      <link>http://localhost:1313/portraits/blue-on-red/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portraits/danny/</guid>
+      <guid>http://localhost:1313/portraits/blue-on-red/</guid>
       <description></description>
     </item>
     <item>
-      <title>Lindsay&#39;s Friend</title>
-      <link>http://localhost:1313/portraits/lindsays-friend/</link>
+      <title>Dad</title>
+      <link>http://localhost:1313/portraits/dad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portraits/lindsays-friend/</guid>
+      <guid>http://localhost:1313/portraits/dad/</guid>
       <description></description>
     </item>
     <item>
-      <title>Man #1</title>
-      <link>http://localhost:1313/portraits/man-number1/</link>
+      <title>Fergus</title>
+      <link>http://localhost:1313/portraits/fergus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portraits/man-number1/</guid>
+      <guid>http://localhost:1313/portraits/fergus/</guid>
       <description></description>
     </item>
     <item>
-      <title>Man #4</title>
-      <link>http://localhost:1313/portraits/man-number4/</link>
+      <title>Lee</title>
+      <link>http://localhost:1313/portraits/lee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portraits/man-number4/</guid>
+      <guid>http://localhost:1313/portraits/lee/</guid>
       <description></description>
     </item>
     <item>
-      <title>Mum</title>
-      <link>http://localhost:1313/portraits/mum/</link>
+      <title>Orange and Pink</title>
+      <link>http://localhost:1313/portraits/orange-and-pink/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portraits/mum/</guid>
+      <guid>http://localhost:1313/portraits/orange-and-pink/</guid>
       <description></description>
     </item>
     <item>
-      <title>Oil Portrait - Coming Soon</title>
-      <link>http://localhost:1313/portraits/placeholder-oil-man/</link>
+      <title>Robin (Black &amp; White)</title>
+      <link>http://localhost:1313/portraits/robin-blackandwhite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portraits/placeholder-oil-man/</guid>
+      <guid>http://localhost:1313/portraits/robin-blackandwhite/</guid>
       <description></description>
     </item>
     <item>
-      <title>Oil Portrait - Coming Soon</title>
-      <link>http://localhost:1313/portraits/placeholder-oil-woman/</link>
+      <title>Robin (Colour)</title>
+      <link>http://localhost:1313/portraits/robin-colour/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portraits/placeholder-oil-woman/</guid>
+      <guid>http://localhost:1313/portraits/robin-colour/</guid>
       <description></description>
     </item>
     <item>
-      <title>Pet Portrait - Coming Soon</title>
-      <link>http://localhost:1313/portraits/placeholder-pet/</link>
+      <title>The Fisherman</title>
+      <link>http://localhost:1313/portraits/fishermen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portraits/placeholder-pet/</guid>
+      <guid>http://localhost:1313/portraits/fishermen/</guid>
       <description></description>
     </item>
     <item>
-      <title>Watercolour Portrait - Coming Soon</title>
-      <link>http://localhost:1313/portraits/placeholder-watercolour-man/</link>
+      <title>Watercolour Portrait</title>
+      <link>http://localhost:1313/portraits/watercolour-man/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portraits/placeholder-watercolour-man/</guid>
+      <guid>http://localhost:1313/portraits/watercolour-man/</guid>
       <description></description>
     </item>
     <item>
-      <title>Watercolour Portrait - Coming Soon</title>
-      <link>http://localhost:1313/portraits/placeholder-watercolour-woman/</link>
+      <title>Watercolour Portrait II</title>
+      <link>http://localhost:1313/portraits/watercolour-man2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portraits/placeholder-watercolour-woman/</guid>
+      <guid>http://localhost:1313/portraits/watercolour-man2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Watercolour Portrait III</title>
+      <link>http://localhost:1313/portraits/watercolour-man3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/watercolour-man3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Watercolour Portrait IV</title>
+      <link>http://localhost:1313/portraits/watercolour-man4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/watercolour-man4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Watercolour Portrait V</title>
+      <link>http://localhost:1313/portraits/watercolour-man5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/watercolour-man5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Watercolour Portrait VI</title>
+      <link>http://localhost:1313/portraits/watercolour-man6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/watercolour-man6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Watercolour Portrait VII</title>
+      <link>http://localhost:1313/portraits/watercolour-man7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/watercolour-man7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Watercolour Woman</title>
+      <link>http://localhost:1313/portraits/watercolour-woman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/watercolour-woman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Watercolour Woman II</title>
+      <link>http://localhost:1313/portraits/watercolour-woman2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/watercolour-woman2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Watercolour Woman III</title>
+      <link>http://localhost:1313/portraits/watercolour-woman3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/watercolour-woman3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yellow on Grey</title>
+      <link>http://localhost:1313/portraits/yellow-on-grey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/yellow-on-grey/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zorn Palette Study</title>
+      <link>http://localhost:1313/portraits/zorn-palette/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraits/zorn-palette/</guid>
       <description></description>
     </item>
   </channel>
